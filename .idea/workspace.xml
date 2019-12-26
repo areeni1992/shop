@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb6330a9-c4e3-4b71-92a7-fba8571c0d07" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TvBo4PQa5JFd9Mn0xqEanCK0i1" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../marefa-akthar" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist\template\layouts" />
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\atyaf\blocks\layouts" />
+      <recent name="C:\xampp\htdocs\atyaf\assets\css\dist" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb6330a9-c4e3-4b71-92a7-fba8571c0d07" name="Default Changelist" comment="" />
+      <created>1574330861036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574330861036</updated>
+      <workItem from="1574330864425" duration="12572000" />
+      <workItem from="1575368872509" duration="7017000" />
+      <workItem from="1575409992361" duration="9595000" />
+      <workItem from="1575445054004" duration="18612000" />
+      <workItem from="1575493228650" duration="11864000" />
+      <workItem from="1575531614596" duration="17063000" />
+      <workItem from="1575572347300" duration="13403000" />
+      <workItem from="1575659455543" duration="3214000" />
+      <workItem from="1575709804313" duration="16000" />
+      <workItem from="1575718697338" duration="25484000" />
+      <workItem from="1575972434918" duration="1913000" />
+      <workItem from="1576062930671" duration="12800000" />
+      <workItem from="1576237065235" duration="15249000" />
+      <workItem from="1576333465738" duration="3019000" />
+      <workItem from="1576419473558" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

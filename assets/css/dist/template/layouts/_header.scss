@@ -1,0 +1,107 @@
+.header{
+  height: 100px;
+  line-height: 100px;
+  .logo{
+
+  }
+  .forms{
+    input{
+      position: relative;
+      border-radius: 30px;
+      text-indent: 15px;
+      outline: none;
+      line-height: normal;
+      border: 1px solid #eff0f2;
+      height: 46px;
+    }
+    a{
+      right: 40px;
+      top: 50%;
+      bottom: 50%;
+      transform: translate(50%, -50%);
+      width: 22px;
+      height: 22px;
+      svg{
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(50%, -50%);
+        width: 30px;
+        height: 30px;
+        &:hover{
+          color: $lightColor;
+        }
+      }
+    }
+  }
+  .login-cart{
+    position: relative;
+    span{
+      font-size: 14px;
+    }
+    .cart{
+      position: absolute;
+      .num{
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #e02c2b;
+        top: 40%;
+        line-height: 15px;
+        text-align: center;
+        font-size: 11px;
+        color: #fff;
+        right: 0px;
+        bottom: 50%;
+        transform: translate(50%, -50%);
+      }
+    }
+  }
+  .login-cart{
+    @include media-breakpoint-down(sm){
+      height: 100px;
+      width: calc(100%/ 2);
+      a{
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(50%, -50%);
+      }
+      .cart{
+        position: absolute;
+        right: -57px;
+        .num{
+          content: "";
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background: $redColor;
+          line-height: 15px;
+          text-align: center;
+          font-size: 11px;
+          color: #fff;
+          top: 42%;
+          bottom: 50%;
+          right: -2px;
+          transform: translate(50%, -50%);
+        }
+      }
+    }
+    //@include media-breakpoint-up(md){
+    //  height: 100px;
+    //  .cart{
+    //    top: 0;
+    //  }
+    //  .num{
+    //    top: 50%;
+    //    bottom: 50%;
+    //    transform: translate(50%, -50%);
+    //  }
+    //}
+  }
+}

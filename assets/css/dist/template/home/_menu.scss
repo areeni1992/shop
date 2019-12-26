@@ -1,0 +1,55 @@
+.categoreis{
+  background: #fff;
+  height: 500px;
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+  .title{
+    position: relative;
+    &:before{
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: -5px;
+      width: 60px;
+      height: 2px;
+      background: #222;
+    }
+  }
+  .menu{
+    overflow-y: hidden;
+    height: calc(100% - 24px);
+    svg{
+      width: 25px;
+      height: 25px;
+      fill: #999;
+    }
+    .submenu{
+
+    }
+    h6{
+
+    }
+    span.plus{
+      color: #999;
+    }
+
+    .active{
+      a>h6,a>span {
+        color: $redColor;
+      }
+      .plus{
+        display: none !important;
+      }
+      .minus{
+        display: block !important;
+      }
+      ul{
+        display: block !important;
+      }
+      svg{
+        fill: $redColor !important;
+      }
+    }
+  }
+}

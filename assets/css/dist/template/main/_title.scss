@@ -1,0 +1,13 @@
+.title{
+  color: #222;
+  h5{
+
+  }
+  a{
+    margin: auto;
+    color: $lightColor;
+    &:hover{
+      color: $redColor;
+    }
+  }
+}

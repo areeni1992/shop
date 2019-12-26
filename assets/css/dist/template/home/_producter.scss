@@ -1,0 +1,39 @@
+.producter{
+  background: #fff;
+  .item{
+    height: 200px;
+    .like{
+      position: absolute;
+      right: 23px;
+      top: 10px;
+      width: 30px;
+      height: 30px;
+      fill: $lightColor;
+    }
+    .img{
+      height: 100%;
+    }
+    .text{
+      .forms{
+        .num{
+          @include media-breakpoint-down(md){
+            width: 100%;
+            text-indent: 90px;
+          }
+        }
+        .increes{
+          right: 125px;
+          @include media-breakpoint-down(md){
+            width: 40px;
+            right: 55px;
+          }
+        }
+        .decrees{
+          @include media-breakpoint-down(md){
+            width: 40px;
+          }
+        }
+      }
+    }
+  }
+}

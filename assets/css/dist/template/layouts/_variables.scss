@@ -1,0 +1,46 @@
+$redColor: #e02c2b;
+$titleColor: #2d2d2d;
+$linksColor: #474747;
+$lightColor: #a0a0a0;
+$sectionsBackground: #f9f9fc;
+//$populerBackground: #f9f9fc;
+$footeLink: #f5f6f8;
+$footerBackground: #181414;
+
+
+.sale{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background: $redColor;
+  text-align: center;
+  line-height: 40px;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 2px;
+    border: 7px solid transparent;
+    border-right-color: #e02c2b;
+    border-bottom-color: #e02c2b;
+    transform: rotate(7deg);
+  }
+}
+
+.redlike{
+    fill: $redColor !important;
+}
+
+.befor-discount{
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.after-discount{
+  font-weight: bold;
+  color: $redColor;
+}

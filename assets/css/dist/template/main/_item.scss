@@ -1,0 +1,46 @@
+.item{
+  background: #fff;
+  height: 300px;
+  .img{
+    position: relative;
+
+    .icon{
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      width: 30px;
+      height: 30px;
+      fill: $lightColor;
+    }
+  }
+  .text{
+    .title{
+
+    }
+    .killo{
+      color: $lightColor;
+    }
+    .forms{
+      .num{
+        width: 85px;
+        position: relative;
+        text-indent: 40px;
+        border-radius: 20px;
+      }
+      .decrees{
+        position: absolute;
+        z-index: 1;
+        background: none;
+        border: none;
+      }
+      .increes{
+        position: absolute;
+        z-index: 1;
+        background: none;
+        border: none;
+        right: 115px;
+      }
+    }
+  }
+
+}

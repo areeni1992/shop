@@ -1,0 +1,44 @@
+.slider{
+  background: $sectionsBackground;
+  .item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    .overlay{
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(#333, .5);
+      .content{
+        h2{
+          font-size: 40px;
+        }
+        span{
+          font-size: 14px;
+        }
+        button{
+          font-size: 14px;
+        }
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        color: #fff;
+      }
+    }
+  }
+  .swiper-pagination{
+    text-align: right;
+    padding-right: 40px;
+  }
+  .swiper-pagination-bullet{
+    background: #e0e0e0;
+  }
+  .swiper-pagination-bullet-active{
+    background: #fff;
+  }
+}

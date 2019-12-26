@@ -1,0 +1,46 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins/breakpoints";
+
+@import "template/layouts/variables";
+body{
+  direction: ltr;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* strat item */
+@import "template/main/item";
+/* strat item */
+@import "template/main/title";
+
+/* strat header */
+@import "template/layouts/header";
+
+/* strat menu */
+@import "template/home/menu";
+
+/* strat slider */
+@import "template/home/slider";
+
+/* strat extrapriz */
+@import "template/home/extrapriz";
+
+/* strat ads */
+@import "template/home/ads";
+
+/* strat producter */
+@import "template/home/producter";
+
+/* strat popular */
+@import "template/home/popular";
+
+/* strat footerlink */
+@import "template/layouts/footerlink";
+
+/* strat footer */
+@import "template/layouts/footer";
